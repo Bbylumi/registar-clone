@@ -1,0 +1,42 @@
+body{font-family:Arial, Helvetica, sans-serif; 
+padding:10px;
+background-color: white;
+margin-top: 0;}
+.h3{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+color: darkblue;
+font-size: small;}
+input{width: 100%;
+padding: 12px 20px;
+margin: 8px o;
+box-sizing: border-box;}
+input[type=text]:focus{border: 3px solid #555}
+select{width:100%;
+padding:12px 20px;
+margin: 8px 0;
+border-radius: 4px;
+background-color: #f1f1;}
+div{ letter-spacing: 2px; line-height: 1.4;}
+/*Blog Title*/
+.header{background-color: whitesmoke; 
+padding:10px;
+text-align:center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.header h1{font-size:50px;}
+/*Styling the top navigation bar*/
+.topnav{overflow:hidden; background-color: #333;}
+/*Styling the top navlinks*/
+.leftcolumn{float:left; width:75%;}
+/*column on the right*/
+.rightcolumn{float: left; width:25%; background-color:grey; padding-left: 20px;}
+.img{padding:20px;}
+.card{ background-color:white; padding:20px; margin-top:20px;}
+.footer{padding:10px; text-align:center; background: #ddd; margin-top: 10px;}
+/*links*/
+a:link, a:visited {
+color: red;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;}
+a:hover, a:active{background-color:greenyellow;}
+.footer{padding: 20px; text-align: center; background-color: #ddd; margin-top: 20px;}
