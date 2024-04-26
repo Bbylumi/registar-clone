@@ -202,7 +202,42 @@
 }
 .market {
     font-size: 12px;
-}    
+}  
+
+section {
+    overflow: hidden;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+}
+
+#overlay{
+    background-image: url(../img/overlay.png);
+    background-color: #fff;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size:48% auto;
+    position: relative;
+}
+#overlay-img{
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+    position:absolute;
+    background-color: #f0dcdc;
+    opacity: .20;
+    mix-blend-mode: luminosity;
+    transition: background .3s, border-radius .3s, opacity .3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.container-fluid img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
 
 
 /* body{font-family:Arial, Helvetica, sans-serif; 
