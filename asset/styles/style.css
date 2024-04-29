@@ -230,88 +230,53 @@ section {
     left: 0;
     position: absolute;
 }
- 
+.service-section-item{
+  border-radius: 10px;
+  max-height: 270.3px;
+  min-height: 270.3px;
+  padding: 45px 36px;
+  background-color: #fff;
+}
+.item-colored{
+  background-color: #202a44;
+  color: white;
+}
+.service-section-item h3{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.service-section{
+  background-image: url(../img/overlay.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  position: relative;
+  padding: 100px 0;
+  background-size: 50%;
+}
+.service-section-overlay {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f0dcdc;
+  opacity: .77;
+  mix-blend-mode: luminosity;
+}
+.service-section-container{
+  position: relative;
+}
+.service-section-title{
+  color: #202a44;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
 
-
-
-/* body{font-family:Arial, Helvetica, sans-serif; 
-padding:10px;
-background-color: white;
-margin-top: 0;}
-.h3{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-color: darkblue;
-font-size: small;}
-input{width: 100%;
-padding: 12px 20px;
-margin: 8px o;
-box-sizing: border-box;}
-input[type=text]:focus{border: 3px solid #555}
-select{width:100%;
-padding:12px 20px;
-margin: 8px 0;
-border-radius: 4px;
-background-color: #f1f1;}
-div{ letter-spacing: 2px; line-height: 1.4;} */
-/*Blog Title*/
-/* .header{background-color: whitesmoke; 
-padding:10px;
-text-align:center;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-.header h1{font-size:50px;} */
-/*Styling the top navigation bar*/
-/* .topnav{overflow:hidden; background-color: #333;} */
-/*Styling the top navlinks*/
-/* .leftcolumn{float:left; width:75%;} */
-/*column on the right*/
-/* .rightcolumn{float: left; width:25%; background-color:grey; padding-left: 20px;}
-.img{padding:20px;}
-.card{ background-color:white; padding:20px; margin-top:20px;}
-.footer{padding:10px; text-align:center; background: #ddd; margin-top: 10px;} */
-/*links*/
-/* a:link, a:visited {
-color: red;
-padding: 14px 25px;
-text-align: center;
-text-decoration: none;
-display: inline-block;}
-a:hover, a:active{background-color:greenyellow;}
-.footer{padding: 20px; text-align: center; background-color: #ddd; margin-top: 20px;} */
-/*<div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-25">
-                                        <div class="card-container">
-                                            <div>
-                                                <div class="card-container">
-                                                    <div class="card">
-                                                        <img src="./asset/img/probate service.png" width="5%">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-25">
-                                                <div>
-                                                    <div class="card">
-                                                        <img src="./asset/img/register.png" width="5%">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-25">
-                                                <div>
-                                                    <div class="card">
-                                                        <img src="./asset/img/register to offer.png" width="5%">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-25">
-                                                <div>
-                                                    <div class="card">
-                                                        <img src="./asset/img/coporate.png" width="5%">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1200px!important;
+  }
+}
