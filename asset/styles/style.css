@@ -221,7 +221,7 @@ section {
     filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
     position:absolute;
     background-color: #f0dcdc;
-    opacity: .20;
+    opacity: .10;
     mix-blend-mode: luminosity;
     transition: background .3s, border-radius .3s, opacity .3s;
     height: 100%;
@@ -230,14 +230,8 @@ section {
     left: 0;
     position: absolute;
 }
+ 
 
-.container-fluid img {
-    height: auto;
-    max-width: 100%;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-}
 
 
 /* body{font-family:Arial, Helvetica, sans-serif; 
@@ -282,3 +276,42 @@ text-decoration: none;
 display: inline-block;}
 a:hover, a:active{background-color:greenyellow;}
 .footer{padding: 20px; text-align: center; background-color: #ddd; margin-top: 20px;} */
+/*<div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-25">
+                                        <div class="card-container">
+                                            <div>
+                                                <div class="card-container">
+                                                    <div class="card">
+                                                        <img src="./asset/img/probate service.png" width="5%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-25">
+                                                <div>
+                                                    <div class="card">
+                                                        <img src="./asset/img/register.png" width="5%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-25">
+                                                <div>
+                                                    <div class="card">
+                                                        <img src="./asset/img/register to offer.png" width="5%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-25">
+                                                <div>
+                                                    <div class="card">
+                                                        <img src="./asset/img/coporate.png" width="5%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
