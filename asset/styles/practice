@@ -42,32 +42,44 @@
     </style>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6 mb-3">
-                <div class="container2">
-                    <img src="./asset/img/register.png">
-                    <h2>Probate services</h2>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 bg-color2">
+                    <div class="h5 m-4 p-4 ">
+                        <p>PAC REGISTARS</p>
+                        <p>The right partner for Data Management and investor Relation.</p>
+                    </div>
+                </div>
+                <div class="col-sm-8 bg-color2 ">
+                    <div class="m-4 p-4">
+                        <p>
+                            PAC REGISTRARS limited, formerly known as spring Registrars limited is registered with
+                            the <br>
+                            securities & Exchange commission (SEC) as a capital market operators to provide share
+                            <br>
+                            Registration services. It commenced business in febuary 2007.
+                        </p>
+
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6 mb-3">
-                <div class="container2">
-                    <img src="./asset/img/register.png">
-                    <h2>Probate services</h2>
-                </div>
-            </div>
-            <div class="col-sm-6 mb-3">
-                <div class="container2">
-                    <img src="./asset/img/register.png">
-                    <h2>Probate services</h2>
-                </div>
-            </div>
-            <div class="col-sm-6 mb-3">
-                <div class="container2">
-                    <img src="./asset/img/register.png">
-                    <h2>Probate services</h2>
-                </div>
         </div>
-    </div>
+    </section>
 </body>
 </html>
+<section class="about-section">
+    <div class="container about-section-container">
+        <div class="about-section-items">
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
+
+</section>
+<p>
+    PAC Registrars Limited, formerly known as Spring Registrars Limited is registered with
+    the Securities & Exchange Commission (SEC) as a Capital Market Operator to provide
+    Share Registration Services. It commenced business in February 2007
+</p>
