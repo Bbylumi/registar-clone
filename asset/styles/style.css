@@ -111,7 +111,15 @@
     font-weight: 900;
     font-style: italic;
   }
-  
+ 
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
 
 .p {
     font-weight: normal;
@@ -403,7 +411,7 @@
 }
 .about-text{
   color: #202a44; 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   line-height: 1.85714285714286;
   
 }
