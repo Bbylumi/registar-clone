@@ -17,10 +17,45 @@
         }
     </style>
 </head>
-<body>
-    <div class="parent">
-        <div class="child">Child Element 1</div>
-        <div class="child">Child Element 2</div>
+<div class="col-md-8">
+    <div class="column-background">
+        <h6 class="management-heading-title mb-4">System Administrator</h6>
+        <div class="management-text-editor">
+            <p>Amadi Clifford holds B.Sc. in Business Administration from Lagos State University,
+                Higher National Diploma in Computer Science from the Polytechnic Ibadan and MBA in
+                Business Management from International Management Institute, Berlin – Germany.
+                He is a certified Information Technology Infrastructure Library (ITIL) and Data
+                Capture, Data-Based Administrator (DCDM). He is a Member of the Institute of Capital
+                Market Registrars as an Associate Member.
+            </p>
+            <p>
+                He has over 15 years’ experience in System Administration, which cuts across
+                Network/System Support,
+                Software Development, IT Leadership, and Digital Automation Transformation
+                Implementation,
+                hardware Management, Server Programming & Maintenance, Data Base Management and
+                Networking
+                and Website Building. He has brought his wealth of knowledge and expertise to drive PAC
+                Registrars
+                Limited Continuous requisite for innovation and is responsible for overseeing the
+                technology architecture
+                framework to achieve the objective of accelerating a digital environment to improve
+                productivity and amplified customer experience.
+            </p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="image">
+            <div class="column-image">
+                <div class="border-style2">
+                    <img class="mw-100 image-class2" src="asset/img/systemadminstrator.jpg">
+                    <div class="image-caption2">
+                        <h3>Amadi Clifford</h3>
+                        <p>System Administrator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
