@@ -538,6 +538,7 @@
 .border-style{
   border-style: solid;
   margin-bottom: 10px;  
+  border-width: 1px;
 }
  
 .image-caption{
@@ -605,7 +606,7 @@
 }
 .management-text-editor{
   color: #fff;
-  margin-bottom: 47px;
+  margin-bottom: 47px;  
 }
 
 .image-class {
@@ -796,12 +797,17 @@
 }
 
 .partner-section{
-  margin-top: 50px;
-}
-.partner-section-bottom{
-  margin-top: 50px;
   margin-bottom: 83px;
 }
+
+.career-image{
+  max-height: 200%;
+}
+.column-section{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
       max-width: 1200px!important;
