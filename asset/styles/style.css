@@ -1416,6 +1416,192 @@ e .border-style {
 .digital-form{
   padding-top: 38px;
 }
+
+.digital-button-link {
+  border: 0 0 0 0;
+  background-color:  #3b4fe4;
+  border-color:  #3b4fe4;;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px 6px 6px 6px;
+  padding: 18px 22px 18px 22px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: .5px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.digital-button {
+  margin-top: 27px;
+}
+
+
+.annual-section {
+  background-image: url(/asset/img/annualbuliding.webp);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding: 100px 0;
+  background-size: cover;
+}
+
+.annual-overlay {
+  background-color: #000;
+  opacity: .5;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.annual-section-container {
+  position: relative;
+}
+.annual-title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.estate-section{
+  background-image: url(/asset/img/anual\ report.webp);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding: 100px 0;
+  background-size: cover;
+  height: 489px;
+}
+
+.estate-overlay{
+  background-color: #fff;
+  opacity: .92;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.contact-section{
+  background-image: url(/asset/img/agreement.webp);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding: 100px 0;
+  background-size: cover;
+}
+
+.contact-overlay{
+  background-color: #000;
+  opacity: .5;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.getintouch-section{
+  margin-top: 90px;
+  margin-bottom: 90px;
+  padding: 0;
+}
+
+.getintouch-container{
+  background-color: #124375;
+  padding-bottom: 166px;
+  margin-right: -248px;
+}
+.getintouch-column{
+  padding: 90px 0 200px 90px;
+}
+
+.getintouch-heading{
+  color: #fff;
+  font-size: 40px;
+  font-family: 'poppins';
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.getintouch-text{
+  color: #fff;
+  line-height: 1.7;
+  font-family: 'Open Sans';
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.getintouch-list{
+  padding: 17px;
+  color: #fff;
+  line-height: 2.5;
+}
+
+.map-secton{
+  background-image: url(/asset/img/Screenshot_17-5-2024_13527_www.pacregistrars.com.jpeg);
+  background-attachment: scroll;
+  background-repeat: no-repeat; 
+  position: relative;
+  background-size: cover;
+  padding: 396px 0;
+  margin-bottom: 0;
+}
+.map-overlay{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.getintouch-image{
+  background-image: url(/asset/img/Set-up-of-Clients-Shareholder.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat; 
+  position: relative;
+  padding: 396px 0;
+  background-size: cover;
+}
+
+.getintouch-overlay {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+} 
+.form-column{
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);
+  margin-top: -776px;
+  position: relative;
+  margin-right: 38px;
+  margin-left: 82px;
+  padding-bottom: 110px;
+}
+.form{
+  text-align: center;
+  padding: 20px 0 39px;
+}
+.text{
+  font-size: 1.8em;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
 @keyframes opacityTransform {
   0% {
     opacity: 0.2;
