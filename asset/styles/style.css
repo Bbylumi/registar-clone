@@ -1602,6 +1602,42 @@ e .border-style {
   font-family: 'Open Sans';
   font-weight: 400;
 }
+
+.icon-closed{
+  display: block;
+}
+
+.question{  
+   border-style: solid;
+   border-width: 1px;
+   color: #000;
+   position: absolute;
+}
+
+.card{
+  color: #891d1d;
+}
+.question-section{
+  background-image: url(/asset/img/EA_FillingOutForm.webp);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding: 100px 0;
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 400px;
+}
+
+.question-overlay{
+  background-color: #fff;
+  opacity: .92;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
 @keyframes opacityTransform {
   0% {
     opacity: 0.2;
