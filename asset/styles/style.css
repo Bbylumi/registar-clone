@@ -1603,9 +1603,6 @@ e .border-style {
   font-weight: 400;
 }
 
-.icon-closed{
-  display: block;
-}
 
 .question{  
    border-style: solid;
@@ -1625,8 +1622,8 @@ e .border-style {
   position: relative;
   padding: 100px 0;
   background-size: cover;
-  height: 500px;
-  margin-bottom: 400px;
+  height: 1113px;
+  margin-bottom: 0;
 }
 
 .question-overlay{

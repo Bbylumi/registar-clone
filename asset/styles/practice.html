@@ -1,139 +1,121 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <title>Title</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="stylesheet" href="./asset/styles/style.css">
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-</head>
-<script>
-  document.getElementById('fileInput').addEventListener('change', function (event) {
-    const fileInput = event.target;
-    const fileInfoDiv = document.getElementById('fileInfo');
-
-    if (fileInput.files.length > 0) {
-      const file = fileInput.files[0];
-      fileInfoDiv.textContent = `Selected file: ${file.name} (${file.size} bytes)`;
-    } else {
-      fileInfoDiv.textContent = 'No file selected';
-    }
-  });
-</script>
-
+<meta charset="UTF-8">
+<title>Catering</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family:"Times New Roman", serif}
+h1,h2,h3,h4,h5,h6 {font-family:serif; letter-spacing:5px}
+</style>
 <body>
-  <header>
-    <!-- place navbar here -->
-  </header>
-  <main>
-    <!DOCTYPE html>
-    <html lang="en">
 
-    <head>
-      <title>Bootstrap Example</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    </head>
+<!-- Navigation (Sits on top) -->
+<div class="w3-top w3-bar w3-white w3-padding w3-card w3-wide">
+<a href="#home" class="w3-bar-item w3-button">Gourmet au Catering</a>
 
-    <body>
+<!-- Right-sided navbar links. Hide them on small screens -->
+<div class="w3-right w3-hide-small">
+<a href="#about" class="w3-bar-item w3-button">About</a>
+<a href="#menu" class="w3-bar-item w3-button">Menu</a>
+<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+</div>
 
-      <div class="container mt-3">
-        <h2>Accordion Example</h2>
-        <p><strong>Note:</strong> The <strong>data-bs-parent</strong> attribute makes sure that all collapsible elements
-          under the specified parent will be closed when one of the collapsible item is shown.</p>
-          
-          <div id="accordion">
-            <div class="card">
-              <div class="card-header">
-                <i class="fas fa-plus"></i>
-                <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-                  Collapsible Group Item #1
-                </a>
-              </div>
-              <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-                <div class="card-body">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header">
-                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-                Collapsible Group Item #2
-              </a>
-              </div>
-              <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-                <div class="card-body">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header">
-                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
-                  Collapsible Group Item #3
-                </a>
-              </div>
-              <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-                <div class="card-body">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
+<!-- Start Content -->
+<div id="home" class="w3-content">
 
-      <div id="accordion">
-        <div class="card">
-            <div class="card-header">
-                <i class="fas fa-plus"></i>
-                <a class="btn" data-bs-toggle="collapse" href="#collapseOne">How can I find out how many shares I hold?
-                </a>
-            </div>
-            <div id="collapseOne" class="collaspe show" data-bs-parent="#accordion">
-                <div class="card-body">
-                    You can determine the number of shares you hold by adding up all your share certificates and holdings in 
-                    CSCS, referring to your recent dividend warrant, or by contacting PAC Registrars.
-                </div>
-            </div>
-            <div class="card-header">
-                <i class="fas fa-plus"></i>
-                <a class="btn" data-bs-toggle="collapse" href="#collapseOne">How can l change my name?
-                </a>
-            </div>
-            <div id="collapseOne" class="collaspe show" data-bs-parent="#accordion">
-                <div class="card-body">
-                    <p>A: Download our change of address form and fill<br>
-                    B: Kindly come to our office with the following documents.
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- Image in Display Container -->
+<div class="w3-padding-top-48">
+<div class="w3-display-container">
+<img src="img_hamburger.jpg" alt="Catering" style="width:100%">
 
-    </body>
-    </html>
+<div class="w3-display-bottomleft w3-padding-small w3-opacity w3-hide-small">
+<h2>Le Catering</h2>
+</div>
 
-  </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
+</div>
+</div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
+<!-- About -->
+<div id="about" class="w3-padding-top-64">
+<div class="w3-row">
+
+<div class="w3-half w3-padding-large w3-hide-small">
+<img src="img_tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:100%">
+</div>
+
+<div class="w3-half w3-padding-large">
+<h1 class="w3-center">About Catering</h1><br>
+<h5 class="w3-center">Tradition since 1889</h5>
+<p class="w3-large">
+The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p class="w3-large w3-text-grey w3-hide-medium">
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua.</p>
+</div>
+
+</div>
+</div>
+
+<!-- Menu -->
+<div id="menu" class="w3-padding-top-64">
+<h1 class="w3-center">Our Menu</h1>
+<div class="w3-row">
+
+<div class="w3-col l6 m6 w3-padding-large">
+
+<h4>Bread Basket</h4>
+<p class="w3-text-grey">
+Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+
+<h4>Belgian Waffle</h4>
+<p class="w3-text-grey">
+Vanilla flavored batter with malted flour 7.50</p><br>
+
+<h4>Scrambled eggs</h4>
+<p class="w3-text-grey">
+Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+
+<h4>Blueberry Pancakes</h4>
+<p class="w3-text-grey">
+With syrup, butter and lots of berries 8.50</p>    
+
+</div>
+
+<div class="w3-col l6 m6 w3-padding-large">
+<img src="img_tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+</div>
+
+</div>
+
+<div class="w3-container w3-text-grey">
+<p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+</div>
+
+</div>
+
+<!-- Contact -->
+<div id="contact" class="w3-container w3-padding-64">
+<h1>Contact</h1>
+
+<p class="w3-text-blue-grey w3-large">
+<b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+<p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or send us a message here:</p>
+
+<form action="/action_page.php" target="_blank">
+<p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+<p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+<p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+<p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+<p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+</form>
+
+<img src="map.jpg" class="w3-image" style="width:100%">
+<p class="w3-center w3-padding">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank">w3.css</a></p>
+</div>  
+
+<!-- End Content -->
+</div>
+
 </body>
-
-</html>
+</html> 
